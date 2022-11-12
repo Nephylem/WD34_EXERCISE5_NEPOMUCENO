@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+body{
+    background: url("sample.jpg") no-repeat;
+}
+
+div{
+    background-color: rgb(255, 63, 108);
+    color: blue;
+    font-family: 'Dancing Script', cursive;
+    text-transform: lowercase;
+    text-decoration: underline;
+    /* text-align: right; */
+    letter-spacing: 10px;
+    word-spacing: 50px;
+}
+
+div.greenBackground{
+    background-color: #777;
+    color: yellow;
+}
+
+#sampleId{
+    color: Black;
+}
+
+.sampleBox{
+    background-color: red;
+    margin: 20px 100px 100px 20px;
+    padding: 50px;
+    border: 10px gray solid; 
+    border-radius: 30px;
+    box-shadow: 20px 20px 20px 20px blue;
+    font-size: 50px;
+    font-weight: light;
+    font-style: italic;
+}
+.sampleOverflow{
+    width: 200px;
+    height: 500px;
+    overflow-y: scroll;
+    text-indent: 20px;
+}
